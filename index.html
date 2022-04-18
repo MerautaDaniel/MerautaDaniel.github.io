@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+
+
+<body class="grid">
+    <!--navigation and logo-->
+    <header id="navigation" class="navigation flex bg-cyan">
+        <div class="navigation_logo">
+            <img src="./Imagini/Artboard.png" alt="brand logo" height="60px" width="100px">
+        </div>
+
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation_list"><span
+                aria-expanded="false"></span></button>
+
+        <nav class="primary-navigation">
+            <ul id="primary-navigation_list" data-visible="false" class="primary-navigation_list flex">
+                <li><a href="#hero" class="text-cyan fs-small fw-700 item_link"><span class="link"></span> Home</a></li>
+                <li><a href="#about" class="text-cyan fs-small fw-700 item_link"><span class="link"></span> About</a>
+                </li>
+                <li><a href="#projects" class="text-cyan fs-small fw-700 item_link"><span class="link"></span>
+                        Projects</a>
+                </li>
+                <li><a href="#contact" class="text-cyan fs-small fw-700 item_link"><span class="link"></span>
+                        Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--hero section or the home page -->
+    <main id="hero" class="hero flex">
+        <div class="hero_left">
+            <div class="my-img">
+                <img src="./Imagini/eu3.png" alt="Daniel Merauta photo" width="400px" height="550px">
+            </div>
+        </div>
+        <div class="hero_right flex">
+            <div>
+                <h1 class="text-red fs-large fw-700">Hello,<span></span></h1>
+                <h1 class="text-red fs-large fw-700">My name is<span></span></h1>
+                <h1 class="text-red fs-large fw-700">Daniel Merauta<span></span></h1>
+            </div>
+            <div>
+                <a href="#" type="button" class="hero_btn fs-normal fw-700">Portfolio</a>
+            </div>
+        </div>
+    </main>
+
+    <!--about me section-->
+    <section id="about" class="about grid">
+        <div class="about_title">
+            <h2 class="fw-400 fs-medium"><span class="text-red fw-700">A</span>bout</h2>
+        </div>
+        <!--General information about me-->
+        <div class="about_card__general first_card">
+            <div class="about_card__container">
+                <div class="about_card__front">
+                    <h3 class="fw-400 fs-normal">General</h3>
+                </div>
+                <div class="about_card__back">
+                    <h4 class="fs-normal">General info</h4>
+                    <p>My name is Merauta Daniel and I was born in Romania in 1983.</p>
+                    <p> I currently live in the UK with
+                        my wife and two children.</p>
+                    <p> I
+                        spend most of my time learning and playing with my children.</p>
+                </div>
+            </div>
+        </div>
+        <!--Activity-->
+        <div class="about_card__general second_card">
+            <div class="about_card__container">
+                <div class="about_card__front">
+                    <h3 class="fw-400 fs-normal">Activity</h3>
+                </div>
+                <div class="about_card__back">
+                    <h4 class="fs-normal">Occupation</h4>
+                    <p>Currently my main occupation is learning web development, but at the same time I work to
+                        support my family.</p>
+                    <p>Besides, I am satisfing my passion for crafting resin water fountains</p>
+                </div>
+            </div>
+        </div>
+        <!--Education-->
+        <div class="about_card__general third_card">
+            <div class="about_card__container">
+                <div class="about_card__front">
+                    <h3 class="fw-400 fs-normal">Studies</h3>
+                </div>
+                <div class="about_card__back">
+                    <h4 class="fs-normal">Education</h4>
+                    <p>I am currently a 4th year IT student at Roehampton University.</p>
+                    <p>At the same time, I am taking full
+                        stack web development
+                        courses within the Wawiwa & NewTech platform.</p>
+                </div>
+            </div>
+        </div>
+        <!--Goals-->
+        <div class="about_card__general fourth_card">
+            <div class="about_card__container">
+                <div class="about_card__front">
+                    <h3 class="fw-400 fs-normal">Purpose</h3>
+                </div>
+                <div class="about_card__back">
+                    <h4 class="fs-normal">Goals</h4>
+                    <p>In the future I plan to work as a web dev, but until then I want to learn everything related
+                        to this field</p>
+                </div>
+            </div>
+        </div>
+        <!--Passion-->
+        <div class="about_card__general fifth_card">
+            <div class="about_card__container">
+                <div class="about_card__front">
+                    <h3 class="fw-400 fs-normal">Hobbies</h3>
+                </div>
+                <div class="about_card__back">
+                    <h4 class="fs-normal">Passion</h4>
+                    <p>I am passionate about crafting using resin but also about building various things for the
+                        house or garden, for example
+                        lamps or waterfalls</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--projects section-->
+    <section id="projects" class="projects grid bg-cyan">
+        <div class="project_title">
+            <h2 class="fw-400 fs-medium"><span class="text-red fw-700">P</span>rojects</h2>
+        </div>
+        <!--Project description-->
+        <div class="project_description bg-cyan">
+            <h4 class="fs-normal text-gold">Space project</h4>
+            <p class=" text-cyan">A project received from <a href="https://www.newtech.ro/en/">NewTech Academy</a> to
+                test our abilities but also our
+                progress in HTML and
+                CSS and which challenges
+                us to learn JS.</p>
+            <p class=" text-cyan">My first approach was to create this website with only HTML and CSS.</p>
+            <p class=" text-cyan"> In the meantime, I found this project on
+                <a href="https://www.frontendmentor.io/challenges">Frontend Mentor</a>,
+                I learned about css variables, custom classes
+                and was introduced to the JS language by Kevin Powell.
+            </p>
+            <p class=" text-cyan">Further I want to deepen JS but also the use of the clamp () function in CSS
+                to create a fluid
+                site for any device.</p>
+            <div class="project_link flex">
+                <img src="./Imagini/External Link icon.ico" alt="link icon" height="32px" width="32px">
+                <a class="text-red fw-700 fs-small" href="https://github.com/MerautaDaniel/SpaceTourism">Space turism
+                    project</a>
+            </div>
+        </div>
+        <!--Project Screenshoot-->
+        <div class="project_screen">
+            <img src="./Imagini/space_screenshot(2).png" alt="Space project" width="100%" height="100%">
+        </div>
+
+        <!--Lavender project section-->
+        <div class="project_description project_description__lavender bg-cyan">
+            <h4 class="fs-normal text-gold">Hill Top Lavender Fields</h4>
+            <p class="text-cyan">This project was the first experience in web development and the final project of the
+                web development
+                module of
+                the University of Roehampton</p>
+            <p class="text-cyan">The requirements were to create a web site with at least 4 pages containing a dynamic
+                presentation of the
+                company, a
+                table, a feedback system, google maps and a photo gallery.</p>
+            <p class="text-cyan">It was a real challenge because my level was 0 at the time.</p>
+            <p class="text-cyan">I did not make any changes to the code in this project because I want to have a
+                reference of the starting
+                point in this
+                field</p>
+            <div class="project_link flex">
+                <img src="./Imagini/External Link icon.ico" alt="link icon" height="32px" width="32px">
+                <a class="text-red fw-700 fs-small"
+                    href="https://github.com/MerautaDaniel/AssignmentWebDevelopment">Lavender
+                    project</a>
+            </div>
+        </div>
+
+        <div class="project_screen__lav">
+            <img src="./Imagini/Picture2.png" alt="lavender homepage" width="100%" height="100%">
+        </div>
+
+    </section>
+
+    <!--contact section-->
+    <section id="contact" class="contact grid bg-cyan">
+        <div class="contact_title">
+            <h2 class="fw-400 fs-medium"><span span class="text-red fw-700">C</span>ontact</h2>
+        </div>
+
+        <div class="contact_info flex">
+            <p class="fs small text-cyan">This are all my contacts for any enquiery</p>
+            <div class="contact_info__querry flex">
+                <img src="./Imagini/Ok icon.ico" alt=" ok icon" height="30px" width="30px">
+                <p class="fs-small text-cyan">If you want to leave a feedback about this page or about my projects.</p>
+            </div>
+            <div class="contact_info__querry flex">
+                <img src="./Imagini/Ok icon.ico" alt=" ok icon" height="30px" width="30px">
+                <p class="fs-small text-cyan">If you need a colleague for your project.</p>
+            </div>
+            <div class="contact_info__querry flex">
+                <img src="./Imagini/Ok icon.ico" alt=" ok icon" height="30px" width="30px">
+                <p class="fs-small text-cyan">If you want to hire me.</p>
+            </div>
+            <div class="contact_info__querry flex">
+                <img src="./Imagini/Ok icon.ico" alt=" ok icon" height="30px" width="30px">
+                <p class="fs-small text-cyan">If you want to know my progress.</p>
+            </div>
+            <div class="contact_info__querry flex">
+                <img src="./Imagini/Ok icon.ico" alt=" ok icon" height="30px" width="30px">
+                <p class="fs-small text-cyan">If you need a friend to talk with.</p>
+            </div>
+        </div>
+
+        <div class="contact_detail">
+
+            <div class="contact_detail__wraper grid">
+
+                <div class="contact_detail__card card_phone flex">
+                    <div class="contact_detail__card-top flex">
+                        <img src="./Imagini/Phone icon.ico" alt="phone gradient icon" height="32px" width="32px">
+                        <p class="fs-small">Phone me</p>
+                    </div>
+                    <div class="contact_detail__card-bot">
+                        <p class="fs-small text-red fw-700">+44 7769 863465</p>
+                    </div>
+                </div>
+
+                <div class="contact_detail__card card_git">
+                    <div class="contact_detail__card-top flex">
+                        <img src="./Imagini/Github icon.ico" alt="git gradient icon" height="32px" width="32px">
+                        <p class="fs-small">Check my</p>
+                    </div>
+                    <div class="contact_detail__card-bot">
+                        <a class="fs-small text-red fw-700" href="https://github.com/MerautaDaniel">GitHub Account</a>
+                    </div>
+                </div>
+
+                <div class="contact_detail__card card_mail">
+                    <div class="contact_detail__card-top flex">
+                        <img src="./Imagini/Mail icon.ico" alt="email gradient icon" height="32px" width="32px">
+                        <p class="fs-small">Send me a mail</p>
+                    </div>
+                    <div class="contact_detail__card-bot">
+                        <p class="fs-small text-red fw-700">merautadaniel@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact_detail__card card_social">
+                    <div class="contact_detail__card-top flex">
+                        <img src="./Imagini/Linkedin icon.ico" alt="linkedin gradient icon" height="32px" width="32px">
+                        <p class="fs-small">Connect with me</p>
+                    </div>
+                    <div class="contact_detail__card-bot">
+                        <a class="fs-small text-red fw-700"
+                            href="https://www.linkedin.com/in/merauta-daniel">LinkedIn</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer flex">
+        <div class="footer_links">
+            <div class="footer_links__wraper flex">
+                <img src="./Imagini/Linkedin icon.ico" alt="linkedin gradient icon" height="32px" width="32px">
+                <a class="fs-small text-cyan fw-400" href="https://www.linkedin.com/in/merauta-daniel">LinkedIn</a>
+            </div>
+            <div class="footer_links__wraper flex">
+                <img src="./Imagini/Mail icon.ico" alt="email gradient icon" height="32px" width="32px">
+                <p class="fs-small text-cyan fw-400">merautadaniel@gmail.com</p>
+            </div>
+            <div class="footer_links__wraper flex">
+                <img src="./Imagini/Github icon.ico" alt="git gradient icon" height="32px" width="32px">
+                <a class="fs-small text-cyan fw-400" href="https://github.com/MerautaDaniel">GitHub Account</a>
+            </div>
+            <div class="footer_links__wraper flex">
+                <img src="./Imagini/Facebook icon.ico" alt="facebook icon" width="32px" height="32px">
+                <a class="fs-small text-cyan fw-400" href="https://www.facebook.com/merautadaniel">Facebook</a>
+            </div>
+        </div>
+        <div class="footer_sitemap">
+            <p class="fs-small text-cyan fw-400">Site map</p>
+            <a class="fs-small text-gold fw-400" href="#hero">Home</a>
+            <a class="fs-small text-gold fw-400" href="#about">About</a>
+            <a class="fs-small text-gold fw-400" href="#projects">Projects</a>
+            <a class="fs-small text-gold fw-400" href="#contact">Contact</a>
+        </div>
+        <div class="footer_contact"></div>
+    </footer>
+</body>
+
+</html>
